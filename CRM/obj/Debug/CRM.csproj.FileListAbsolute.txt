@@ -1,0 +1,10 @@
+C:\Users\wgm\Google Диск\С#\CRM\CRM\bin\Debug\CRM.exe.config
+C:\Users\wgm\Google Диск\С#\CRM\CRM\bin\Debug\CRM.exe
+C:\Users\wgm\Google Диск\С#\CRM\CRM\bin\Debug\CRM.pdb
+C:\Users\wgm\Google Диск\С#\CRM\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+C:\Users\wgm\Google Диск\С#\CRM\CRM\obj\Debug\CRM.Properties.Resources.resources
+C:\Users\wgm\Google Диск\С#\CRM\CRM\obj\Debug\CRM.csproj.GenerateResource.Cache
+C:\Users\wgm\Google Диск\С#\CRM\CRM\obj\Debug\CRM.exe
+C:\Users\wgm\Google Диск\С#\CRM\CRM\obj\Debug\CRM.pdb
+C:\Users\wgm\Google Диск\С#\CRM\CRM\bin\Debug\MySql.Data.dll
+C:\Users\wgm\Google Диск\С#\CRM\CRM\obj\Debug\CRM.Mains.resources
