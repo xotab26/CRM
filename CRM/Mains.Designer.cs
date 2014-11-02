@@ -34,6 +34,7 @@
             this.nTray = new System.Windows.Forms.NotifyIcon(this.components);
             this.bClient = new System.Windows.Forms.Button();
             this.bExit = new System.Windows.Forms.Button();
+            this.bLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // nTray
@@ -61,11 +62,21 @@
             this.bExit.Text = "Выход";
             this.bExit.UseVisualStyleBackColor = true;
             // 
+            // bLogin
+            // 
+            this.bLogin.Location = new System.Drawing.Point(13, 240);
+            this.bLogin.Name = "bLogin";
+            this.bLogin.Size = new System.Drawing.Size(75, 23);
+            this.bLogin.TabIndex = 2;
+            this.bLogin.Text = "Войти";
+            this.bLogin.UseVisualStyleBackColor = true;
+            // 
             // Mains
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1294, 301);
+            this.Controls.Add(this.bLogin);
             this.Controls.Add(this.bExit);
             this.Controls.Add(this.bClient);
             this.Name = "Mains";
@@ -80,6 +91,7 @@
         private System.Windows.Forms.NotifyIcon nTray;
         private System.Windows.Forms.Button bClient;
         private System.Windows.Forms.Button bExit;
+        private System.Windows.Forms.Button bLogin;
     }
 }
 

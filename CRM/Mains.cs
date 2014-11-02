@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CRM.data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,7 +16,7 @@ namespace CRM
     {
         
         private ContextMenu m_menu;
-        private Func Debug = new Func();
+        private Debug Debug = new Debug();
         private CRM.MySqlData.MySqlExecuteData.MyResultData mysql = new CRM.MySqlData.MySqlExecuteData.MyResultData();
         //client = CRM.MySqlData.MySqlExecuteData.SqlReturnDataset("select * from Client");
         //user = CRM.MySqlData.MySqlExecuteData.SqlReturnDataset("select * from User");
@@ -70,25 +71,5 @@ namespace CRM
             Dispose();
         }
     }
-
-    public class Func
-    {
-        public void Message(string message)
-        {
-            if(Mains.debug)
-            MessageBox.Show("Debug: " + message);
-        }
-
-        public void Log(string message)
-        {
-            if (!File.Exists(Mains.LogPatch)) System.IO.File.WriteAllText(Mains.LogPatch, "");
-
-            FileStream fileStream = new FileStream(@"C:\" + "\\" + "Log" + ".txt", FileMode.Open);
-            StreamWriter streamWriter = new StreamWriter(fileStream);
-            streamWriter.BaseStream.Seek(fileStream.Length, SeekOrigin.Begin);
-            streamWriter.WriteLine(message);
-            streamWriter.Close();
-            fileStream.Close();
-        }
-    }
+    
 }
